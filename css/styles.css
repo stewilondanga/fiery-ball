@@ -159,13 +159,13 @@ body {
   animation: explodeBack 1s infinite cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
-/*@keyframes explodeBack{
+@keyframes explodeBack {
   50% {
     transform: rotateX(180deg) translateZ(20px) scale(1.13) skew(-13deg);
   }
 }
 
-.fireball{
+/*.fireball{
   transform: rotateX(-20deg) rotateY(20deg) translateX(-200px) scaleX(2) scaleY(.89);
   animation: castFireball 400ms infinite linear;
   background: #000;
