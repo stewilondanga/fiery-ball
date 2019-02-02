@@ -190,7 +190,7 @@ body {
   }
 }
 
-/*.fireball:after{
+.fireball:after {
   content: '';
   width: 4px;
   height: 10px;
@@ -202,7 +202,7 @@ body {
   transform: scaleX(3) skew(5deg);
 }
 
-.wrapper{
+/*.wrapper{
   animation: shake 400ms infinite linear alternate;
   width: 320px;
   height: 320px;
