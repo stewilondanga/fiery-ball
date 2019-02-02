@@ -77,16 +77,18 @@ body {
   height: 6px;
 }
 
-/*@keyframes pulse{
-  0%{
-   opacity: 1;
+@keyframes pulse {
+  0% {
+    opacity: 1;
   }
-  100%{
-   opacity: 0; transform: scale(2) rotateZ(13deg) translateX(50px);
+
+  100% {
+    opacity: 0;
+    transform: scale(2) rotateZ(13deg) translateX(50px);
   }
 }
 
-.cube div {
+/*.cube div {
   height: 10px;
   width: 10px;
   position: absolute;
