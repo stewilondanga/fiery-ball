@@ -31,10 +31,8 @@ body {
   height: 1.5em;
 }
 
-/*
-
 .cube,
-.fireball{
+.fireball {
   transform-style: preserve-3d;
   animation: spin 2s infinite linear;
   transform: rotateX(-20deg) rotateY(20deg);
@@ -48,7 +46,7 @@ body {
   outline: 1px solid transparent;
 }
 
-@keyframes spin{
+/*@keyframes spin{
   0%{
     transform: rotateX(-20deg) rotateY(-20deg);
   }
