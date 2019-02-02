@@ -165,17 +165,17 @@ body {
   }
 }
 
-/*.fireball{
+.fireball {
   transform: rotateX(-20deg) rotateY(20deg) translateX(-200px) scaleX(2) scaleY(.89);
   animation: castFireball 400ms infinite linear;
   background: #000;
   width: 30px;
   height: 5px;
-  background: linear-gradient(to left, rgb(255, 0, 0) 0%, rgb(255, 200, 0) 33%, rgba(255,118,43,0) 100%);
+  background: linear-gradient(to left, rgb(255, 0, 0) 0%, rgb(255, 200, 0) 33%, rgba(255, 118, 43, 0) 100%);
   box-shadow: 1px 2px 0 rgb(255, 0, 0);
 }
 
-@keyframes castFireball{
+/*@keyframes castFireball{
   50% {
     transform: rotateX(-20deg) rotateY(20deg) translateX(-20px) scaleX(1);
   }
