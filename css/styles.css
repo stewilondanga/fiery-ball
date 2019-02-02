@@ -175,20 +175,22 @@ body {
   box-shadow: 1px 2px 0 rgb(255, 0, 0);
 }
 
-/*@keyframes castFireball{
+@keyframes castFireball {
   50% {
     transform: rotateX(-20deg) rotateY(20deg) translateX(-20px) scaleX(1);
   }
-  75%{
+
+  75% {
     opacity: 0;
   }
-  100%{
+
+  100% {
     opacity: 0;
     transform: rotateX(-20deg) rotateY(20deg) translateX(-20px) scaleX(1);
   }
 }
 
-.fireball:after{
+/*.fireball:after{
   content: '';
   width: 4px;
   height: 10px;
