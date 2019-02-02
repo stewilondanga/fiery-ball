@@ -202,14 +202,14 @@ body {
   transform: scaleX(3) skew(5deg);
 }
 
-/*.wrapper{
+.wrapper {
   animation: shake 400ms infinite linear alternate;
   width: 320px;
   height: 320px;
   transform: scale(1.21)
 }
 
-@keyframes shake{
+/*@keyframes shake{
   100%{
     transform: translateY(21px) scale(1.55) rotateY(13deg) rotateX(21deg);
   }
