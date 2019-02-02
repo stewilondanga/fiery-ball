@@ -46,16 +46,17 @@ body {
   outline: 1px solid transparent;
 }
 
-/*@keyframes spin{
-  0%{
+@keyframes spin {
+  0% {
     transform: rotateX(-20deg) rotateY(-20deg);
   }
-  100%{
+
+  100% {
     transform: rotateX(-20deg) rotateY(-740deg);
   }
 }
 
-.cube div:after{
+/*.cube div:after{
   content: '';
   width: 6px;
   height: 10px;
