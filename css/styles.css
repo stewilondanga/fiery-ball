@@ -125,13 +125,13 @@ body {
   animation: explodeBottom 1s infinite cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
-/*@keyframes explodeBottom{
+@keyframes explodeBottom {
   50% {
     transform: rotateX(-90deg) translateZ(20px) scale(1.13) skew(-13deg);
   }
 }
 
-.cube .left{
+/*.cube .left{
   transform: rotateY(-90deg);
   margin-left: -10px;
   animation: explodeLeft 1s infinite cubic-bezier(0.390, 0.575, 0.565, 1.000);
