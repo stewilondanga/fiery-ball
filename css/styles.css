@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -27,10 +32,6 @@
 }
 
 
-html, body {
-   width: 100vw;
-   height: 100vh;
-}
 
 body{
   display: flex;
