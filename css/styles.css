@@ -88,14 +88,14 @@ body {
   }
 }
 
-/*.cube div {
+.cube div {
   height: 10px;
   width: 10px;
   position: absolute;
   box-shadow: 5px 5px 0 0 #74cae2, 10px 5px 0 0 #3f94ad, 15px 5px 0 0 #777777, 20px 5px 0 0 #5a5a5a, 5px 10px 0 0 #d0f3fd, 10px 10px 0 0 #d0f3fd, 15px 10px 0 0 #5a5a5a, 20px 10px 0 0 #5a5a5a, 5px 15px 0 0 #cbcbcb, 10px 15px 0 0 #777777, 15px 15px 0 0 #909090, 20px 15px 0 0 #909090, 5px 20px 0 0 #777777, 10px 20px 0 0 #777777, 15px 20px 0 0 #909090, 20px 20px 0 0 #777777;
 }
 
-.cube .top {
+/*.cube .top {
   transform: rotateX(90deg);
   margin-top: -10px;
   animation: explodeTop 1s infinite cubic-bezier(0.680, -0.550, 0.265, 1.550);
