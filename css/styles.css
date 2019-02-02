@@ -8,6 +8,14 @@ html, body {
   height: 100vh;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dce9ea;
+  overflow: hidden;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -33,13 +41,6 @@ html, body {
 
 
 
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #dce9ea;
-  overflow: hidden;
-}
 
 .cube,
 .fireball{
